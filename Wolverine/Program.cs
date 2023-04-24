@@ -3,6 +3,9 @@ using Wolverine;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Tried adding it here too
+// No go.
+
 #region Standard services setup
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
